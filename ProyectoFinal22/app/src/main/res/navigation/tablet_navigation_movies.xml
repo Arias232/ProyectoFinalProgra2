@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_movie"
+    app:startDestination="@id/fragment_movie_detail">
+
+    <fragment
+        android:id="@+id/fragment_movie_detail"
+        android:name="com.example.proyectofinal.ui.movie_detail.MovieDetailFragment"
+        android:label="movie_detail_fragment"
+        tools:layout="@layout/movie_detail_fragment" >
+        <argument
+            android:name="ARG_ID_MOVIE"
+            app:argType="integer" />
+    </fragment>
+</navigation>

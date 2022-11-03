@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="language">es-ES</string>
+    <string name="title_movies">Películas</string>
+    <string name="title_series">Series TV</string>
+    <string name="title_movie_placeholder">Título</string>
+    <string name="label_forgot_password">¿Olvidaste la contraseña?</string>
+</resources>
